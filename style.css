@@ -263,7 +263,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin: 50px 0px;
+  /* margin: 50px 0px; */
 }
 
 /* Hide the images by default */
