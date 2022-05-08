@@ -63,8 +63,8 @@
   height: 600px;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 70%, black 30%),
     url("./images/homepage.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
 }
 
 .container .homepage .info {
@@ -133,24 +133,6 @@
   color: rgb(223, 223, 223);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-
-  .container .homepage{
-    height: 100%;
-  }
-
-  .container .homepage .info{
-    width: 100%;
-  }
- 
-   .container .homepage .info h1{
-     font-size: 35px;
-   }
-
-   .container .homepage .info .numbers .first h1{
-     font-size: 27px;
-   }
- }
 
 .container .program {
   width: 100%;
@@ -610,17 +592,24 @@
    }
 
    .container .program .heading{
+     width: 100%;
      display: flex;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+
    }
 
    .container .program .heading img{
-     width: 100px;
-     height: 100px;
+     width: 70px;
+     height: 70px;
+     margin: 0px 10px;
+     
    }
 
    .container .program .heading h1{
-     font-size: 30px;
+     font-size: 25px;
    }
 
    .container .gallery img{
