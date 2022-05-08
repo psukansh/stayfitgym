@@ -555,9 +555,9 @@
     width: 100vw;
   }
 
-  .container nav{
-    background-color: skyblue;
-  }
+  /* .container nav{ */
+    /* background-color: skyblue; */
+  /* } */
   .container nav .menu_list{
     display: none;
   }
