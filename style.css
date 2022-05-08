@@ -247,7 +247,7 @@
 }
 
 .container .gallery img {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   width: 400px;
   height: 250px;
   /* box-shadow: rgba(55, 0, 255, 0.236) 0px 7px 29px 0px; */
